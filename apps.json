@@ -1,0 +1,53 @@
+{
+  "note": "NCEMS Clinical buttons (clinical.northcountryems.org). Edit this file to add, remove or rename clinical apps. style: dark for the darker green. Use \\n in a title for a line break. soon: true (and no url) shows a grey Coming Soon card. clinicalNotice: the warning at the top (set to \"\" to hide it).",
+  "clinicalNotice": "For clinical reference only. Not to be used for patient care.",
+  "clinical": [
+    {
+      "label": "Clinical Reference",
+      "buttons": [
+        {
+          "title": "Intubation",
+          "url": "https://emaildougb.github.io/Intubation/"
+        },
+        {
+          "title": "Advanced Airway",
+          "soon": true
+        },
+        {
+          "title": "Drip Sets",
+          "soon": true
+        },
+        {
+          "title": "Medication List",
+          "soon": true
+        },
+        {
+          "title": "Shock",
+          "soon": true
+        },
+        {
+          "title": "Sepsis",
+          "soon": true
+        },
+        {
+          "title": "Stroke",
+          "soon": true
+        },
+        {
+          "title": "Cardiac",
+          "soon": true
+        }
+      ]
+    },
+    {
+      "label": "Protocols",
+      "buttons": [
+        {
+          "title": "Quick Protocols",
+          "url": "https://emaildougb.github.io/protocol-app/",
+          "style": "dark"
+        }
+      ]
+    }
+  ]
+}
