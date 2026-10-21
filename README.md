@@ -2,7 +2,7 @@
 
 Clinical reference page for North Country EMS crews. This used to be the Clinical tab on the NCEMS Hub. It got its own site in October 2026 (hub 2.0) so the hub could be just Operations.
 
-**Version 1.0**
+**Version 1.1**
 
 ## Links
 
@@ -37,7 +37,7 @@ Clinical reference page for North Country EMS crews. This used to be the Clinica
 - The yellow warning and the buttons come from `apps.json`. Phones keep the last good copy if it can't load, and the buttons built into `index.html` are the fallback
 - The notice banner at the bottom is the same notice the hub shows (Doug's Cloudflare Worker). Notices are posted from the hub's (i) panel, not here
 - The home button opens the NCEMS Hub
-- Usage is counted in Firebase `usage/clinical` (same project as the hub)
+- Usage is counted on the `ncems-checks` Worker (1.1), no Firebase
 - Bump `CLIN_VERSION` in `index.html` whenever you upload a new `index.html`. Open copies show a "New version available" bar
 
 ## Adding, removing or renaming a button (no index.html change)
@@ -47,6 +47,9 @@ Clinical reference page for North Country EMS crews. This used to be the Clinica
 3. Commit. Phones pick it up the next time the page opens
 
 ## Changelog
+
+### v1.1
+- Usage counter moved off Firebase to the `ncems-checks` Worker on Doug's NCEMS Cloudflare. Clinical no longer loads Firebase
 
 ### v1.0
 - New phone icon: NCEMS green and teal split corner to corner with a white Star of Life, NCEMS across the bottom (matches the Open Shifts icon). `apple-touch-icon.png` is the new icon and `icon-512.png` is the big one Android uses for the icon and the launch screen. Delete the old icon from the home screen and add it again to see it
