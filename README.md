@@ -2,7 +2,7 @@
 
 Clinical reference page for North Country EMS crews. This used to be the Clinical tab on the NCEMS Hub. It got its own site in October 2026 (hub 2.0) so the hub could be just Operations.
 
-**Version 1.2**
+**Version 1.3**
 
 ## Links
 
@@ -47,6 +47,10 @@ Clinical reference page for North Country EMS crews. This used to be the Clinica
 3. Commit. Phones pick it up the next time the page opens
 
 ## Changelog
+
+### v1.3 (10/24/2026)
+- New top bar, the same as CG Staff: white bar, house button on the left goes to the NCEMS Hub, NCEMS logo, "NCEMS" in black and the app name in green, North Country EMS in gray, and the i button on the right for details. iPhone status bar set to default so the clock shows on the white bar
+- Changed index.html and README.md
 
 ### v1.2
 - Haptics: a light tick when you tap a button, link, tab or card, the same way the EP Checker does it. iPhone needs iOS 18 or newer with System Haptics on (Settings, Sounds & Haptics). Android phones vibrate. Nothing else changed
