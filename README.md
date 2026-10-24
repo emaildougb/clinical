@@ -2,7 +2,7 @@
 
 Clinical reference page for North Country EMS crews. This used to be the Clinical tab on the NCEMS Hub. It got its own site in October 2026 (hub 2.0) so the hub could be just Operations.
 
-**Version 1.1**
+**Version 1.2**
 
 ## Links
 
@@ -47,6 +47,9 @@ Clinical reference page for North Country EMS crews. This used to be the Clinica
 3. Commit. Phones pick it up the next time the page opens
 
 ## Changelog
+
+### v1.2
+- Haptics: a light tick when you tap a button, link, tab or card, the same way the EP Checker does it. iPhone needs iOS 18 or newer with System Haptics on (Settings, Sounds & Haptics). Android phones vibrate. Nothing else changed
 
 ### v1.1
 - Usage counter moved off Firebase to the `ncems-checks` Worker on Doug's NCEMS Cloudflare. Clinical no longer loads Firebase
